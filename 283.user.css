@@ -1,0 +1,119 @@
+/* ==UserStyle==
+@name           DARK NovelAI Wiki!
+@namespace      miraheze.org
+@version        1.0.0
+@description    latitude sux!
+@author         luminescenttrent
+==/UserStyle== */
+
+@-moz-document domain("miraheze.org") {
+/* 
+This is pretty heavily plagiarized from the beautiful https://uso.kkx.one/style/168445 !
+And I didn't ask if it was okay...
+Hopefully they won't care.
+*/
+
+* {
+    background-color: #111;
+    color: #eee;
+}
+
+body {
+    background: #111;
+}
+
+.mw-body {
+    background: #111
+}
+
+.header-container.header-chrome {
+    background-color: #222;
+}
+
+nav {
+    background: #222;
+    color: #222;
+}
+
+.page {
+    background: #111;
+    border: none;
+}
+
+.content {
+    background: #222;
+    color: #efefef;
+}
+
+pre {
+    color: #eee;
+    background: #0c2730;
+}
+
+aside {
+    border-left: solid 8px #144251;
+}
+
+h2 {
+    border-left: solid 8px #198bb0;
+}
+
+a {
+    color: #2eb9ff;
+}
+
+code {
+    color: #00c1ea;
+}
+
+blockquote {
+    background: #330069;
+}
+
+blockquote p {
+    color: #caeeff;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+}
+
+img[alt="NAIKBlogo.svg"] {
+    filter: hue-rotate(180deg) invert(100%);
+    -webkit-filter: hue-rotate(180deg) invert(100%);
+}
+
+.toc {
+    display: none;
+    position: relative;
+    margin: 1em 0;
+    padding: 0.2em 0.5em;
+    background-color: #222;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.search-box .search {
+    background-color: #111;
+    background-position: left 0.5em center;
+    background-repeat: no-repeat;
+    background-size: 1.125em;
+    -webkit-appearance: none;
+    width: 100%;
+    margin-top: 0;
+    height: 2.25em;
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 7px 0 7px 2.0625em;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    outline: 0;
+    -webkit-transition: border-color 250ms,box-shadow 250ms;
+    transition: border-color 250ms,box-shadow 250ms;
+}
+
+.overlay.search-overlay {
+    background: #111;
+}
+}
